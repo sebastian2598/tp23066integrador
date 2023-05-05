@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container-fluid{
+    background-color: rgb(88, 88, 97);
+    padding: 0;
+    
+}
+.bg-body-tertiary{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#nav{
+    padding: 0;
+    position: relative;
+    right: 6em;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+
+    
+}
+ul li{
+ 
+        margin: 0.5em;
+
+
+}
+
+ul li a:hover{
+color: white;
+}
+ul a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+a.navbar-brand{
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 6em;
+
+}
+
+#ora{
+    color: white;
+}
+
+#ticket{
+    color:rgb(4, 179, 4);
+}
+
+main div{
+    width: 100%;
+    height: 33em;
+}
+
+.imagen-fondo{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/imagenes/hawaii.jpg);
+  background-position: left 80%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+
+}
+
+#ora2{
+    color: black;
+    text-align: center;
+   
+}
+main section div h6{
+    text-align: center;
+    position: relative;
+}
+
+.texto1{    
+   
+    color: white;
+    width: 32em;
+    height: 11em;
+    position: relative;
+    left: 36.3em;
+    top: 8.8em;
+    text-align: right;
+    text-decoration: solid;
+    
+    font-size: large;
+   
+}
+.botones{
+    position: relative;
+    top: 10em;
+    left: 56.3em;
+    height: 3em;
+    width: 25em;    
+    display: flex;
+}
+
+ 
+main div h2{
+    color: white
+}
+
+main div p{
+    color: white;
+}
+
+.btn-outline-primary{
+    color: rgb(250, 244, 244);
+  text-decoration: double;
+  border-color: white;
+  border-radius: 5px;
+  font-size: large;
+  
+}
+.btn-primary{
+    background-color: rgb(21, 138, 21);
+    border: rgb(21, 138, 21);
+    position: relative;
+    left: 0.6em;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.oradores{
+    background-color: black;
+    position: relative;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+.row.row-cols-1.row-cols-md-3.g-4{
+    background-color: aquamarine;
+    position: relative;
+    width: 200em;
+}
+
+#eti1{
+    color: black;
+  
+}
+
