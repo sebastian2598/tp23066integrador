@@ -63,17 +63,16 @@ a.navbar-brand{
     color:rgb(4, 179, 4);
 }
 
-main div{
-    width: 100%;
-    height: 33em;
-}
+
+
 
 .imagen-fondo{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/imagenes/hawaii.jpg);
   background-position: left 80%; 
   background-size: cover;
   background-repeat: no-repeat;
- 
+  width: 100%;
+  height: 33em;
 
 }
 
@@ -135,26 +134,161 @@ main div p{
     border-radius: 5px;
     font-size: large;
 }
+#conoce{
+    margin-top: 2%;
+    text-align: center;
+}
 
-.oradores{
-    background-color: black;
-    position: relative;
-    height: 40em;
+.flex-container{
+    width: 100%;
+    height: 33em;
     display: flex;
-    align-items: center;
-    align-content: center;
-    
+    justify-content: center;
+}
+
+.flex-item1{
+    width: 24%;
+    height: 95%;
+    border: 1px solid rgb(207, 205, 205);
+    margin-right: 3%;
+    border-radius: 1%;
     
 }
 
-.row.row-cols-1.row-cols-md-3.g-4{
-    background-color: aquamarine;
-    position: relative;
-    width: 200em;
+.imagenes10{
+    width: 100%;
 }
 
-#eti1{
+.flex-item2{
+    width: 24%;
+    height: 95%;
+    border: 1px solid rgb(207,205,205);
+    margin-right: 3%;
+    border-radius: 1%;
+}
+
+.flex-item3{
+    width: 24%;
+    height: 95%;
+    border: 1px solid rgb(207,205,205);
+    border-radius: 1%;
+}
+
+.j1{
+    padding-left: 5%;
+   
+}
+.j2{
+    margin: 8px.0px.8px.0px;
+    background-color: yellow;
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
     color: black;
-  
 }
+
+.r1{
+    background-color:rgb(11, 177, 243);
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+    margin-left: 2%;
+    margin-top: 8px;
+    border-radius: 10%;
+}
+
+#j2{
+    margin: 8px.0px.8px.0px;
+    background-color: gray;
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+}
+#r1{
+    background-color:rgb(182, 4, 4);
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+    margin-left: 2%;
+    margin-top: 8px;
+    border-radius: 10%;
+}
+
+.letras2{
+    margin: 0%;
+    padding-left: 5%;
+    font-size:larger;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.lore{
+    padding-left: 5%;
+    font-size:small;
+    color: black;
+}
+
+.flex-container2{
+    width: 100%;
+    height: 28em;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#conviertete{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.item22{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/honolulu.jpg);
+    background-size: cover;
+}
+.item23{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(68, 67, 67);
+   
+    
+   
+}
+
+.bloque{
+    display: block;
+    color: white;
+    padding-left: 10px;
+}
+
+#bs{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#t34{   
+    font-size: small;
+}
+
+#bot{
+background-color: rgb(68, 67, 67);
+color: white;
+border: 1px solid white;
+border-radius: 5px;
+padding: 5px;
+font-size: 14px;
+margin-left: 6px;
+}
+
+
 
