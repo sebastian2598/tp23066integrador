@@ -62,10 +62,6 @@ a.navbar-brand{
 #ticket{
     color:rgb(4, 179, 4);
 }
-
-
-
-
 .imagen-fondo{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/imagenes/hawaii.jpg);
   background-position: left 80%; 
@@ -290,5 +286,37 @@ font-size: 14px;
 margin-left: 6px;
 }
 
+#cuentanos{
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+#estil{
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
 
+.form{
+    background-color: black;
+    width: 100%;
+    height: 23em;
+    display: flex;
+    justify-content: center;
+   
+}
 
+.row{
+width: 60%;
+}
+
+.col{
+height: 50px;
+}
+
+.form-floating{
+   bottom: 95px;
+}
+#la{
+    left: 5px;
+    color: rgb(102, 99, 99);
+}
